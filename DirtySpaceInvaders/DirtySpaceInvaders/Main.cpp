@@ -1,31 +1,16 @@
-#include <iostream>
+
 
 #include "ConsoleRenderer.h"
-
 #include <random>
 #include <thread>
 #include <memory>
 #include <string>
+#include "RndInput.h"
 
 std::default_random_engine rGen;
 typedef std::uniform_int_distribution<int> intRand;
 typedef std::uniform_real_distribution<float> floatRand;
 
-class Input
-{
-public:
-	virtual bool Left() = 0;
-	virtual bool Right() = 0;
-	virtual bool Fire() = 0;
-};
-
-class RndInput : public Input
-{
-public:
-	virtual bool Left() { floatRand keyRate(0, 1); return (keyRate(rGen) < 0.3f); }
-	virtual bool Right() { floatRand keyRate(0, 1); return (keyRate(rGen) < 0.4f); };
-	virtual bool Fire() { floatRand keyRate(0, 1); return (keyRate(rGen) < 0.5f); };
-};
 
 class PlayField;
 
@@ -105,8 +90,9 @@ public:
 	{
 		auto it = std::find(gameObjects.begin(), gameObjects.end(), newObj); // , [&](GameObject* in) { return (in == newObj); });
 		delete* it;
-		gameObjects.erase(it);
+		//gameObjects.erase(it);
 	}
+	
 };
 
 class AlienLaser : public GameObject
@@ -133,7 +119,8 @@ public:
 
 		if (deleted)
 		{
-			world.DespawnLaser((GameObject*)this);
+			world.DespawnLaser(this);
+			//world.DespawnLaser((GameObject*)this);
 		}
 	}
 };
@@ -200,9 +187,9 @@ private:
 		if (fireRate(rGen) < 0.5 && world.AlienLasers > 0)
 		{
 			//Spawn laser
-			/*GameObject& newLaser = *(new AlienLaser);
-			newLaser.pos = pos;
-			world.SpawnLaser(&newLaser);*/
+			//GameObject& newLaser = *(new AlienLaser);
+			//newLaser.pos = pos;
+			//world.SpawnLaser(&newLaser);
 		}
 	}
 };
@@ -257,9 +244,9 @@ int main()
 	}
 
 	// Add player
-	/*PlayerShip* p = new PlayerShip;
+	PlayerShip* p = new PlayerShip;
 	p->pos = Vector2D(40, 27);
-	world.AddObject(p);*/
+	world.AddObject(p);
 
 	
 	for (int i = 0; i < 100; i++)
