@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "ConsoleRenderer.h"
 
 #include <random>
@@ -44,7 +46,7 @@ private:
 	std::vector<GameObject*> gameObjects;
 
 public:
-	Input* cotrollerInput;
+	Input* controllerInput;
 	Vector2D bounds;
 
 	// Number of available active laser slots for aliens and player
@@ -57,7 +59,7 @@ public:
 	void Update()
 	{
 		// Update list of active objects in the world
-		for (auto it : gameObjects)
+		for (auto it : GameObjects())
 		{
 			it->Update(*this);
 		}
@@ -74,7 +76,7 @@ public:
 
 	void SpawnLaser(GameObject* newObj)
 	{
-		if (strcmp(newObj->m_objType, "alienLaser") == 0)
+		if (strcmp(newObj->m_objType, "AlienLaser") == 0)
 			AlienLasers--;
 
 		else if (strcmp(newObj->m_objType, "PlayerLaser") == 0)
@@ -101,7 +103,7 @@ public:
 
 	void RemoveObject(GameObject* newObj)
 	{
-		auto it = std::find_if(gameObjects.begin(), gameObjects.end(), [&](GameObject* in) { return (in == newObj); });
+		auto it = std::find(gameObjects.begin(), gameObjects.end(), newObj); // , [&](GameObject* in) { return (in == newObj); });
 		delete* it;
 		gameObjects.erase(it);
 	}
@@ -154,7 +156,7 @@ public:
 		if (deleted)
 		{
 			world.DespawnLaser(this);
-			delete this;
+			//delete this;
 		}
 	}
 };
@@ -198,9 +200,9 @@ private:
 		if (fireRate(rGen) < 0.5 && world.AlienLasers > 0)
 		{
 			//Spawn laser
-			GameObject& newLaser = *(new AlienLaser);
+			/*GameObject& newLaser = *(new AlienLaser);
 			newLaser.pos = pos;
-			world.SpawnLaser(&newLaser);
+			world.SpawnLaser(&newLaser);*/
 		}
 	}
 };
@@ -213,17 +215,19 @@ public:
 
 	void Update(PlayField& world)
 	{
-		if (world.cotrollerInput->Left())
+		if(!world.controllerInput)
+			return;
+		if (world.controllerInput->Left())
 			pos.x -= 1;
-		else if (world.cotrollerInput->Right())
+		else if (world.controllerInput->Right())
 			pos.x += 1;
 
-		if (world.cotrollerInput->Fire() && world.PlayerLasers > 0)
+		if (world.controllerInput->Fire() && world.PlayerLasers > 0)
 		{
 			//Spawn laser
-			GameObject& newLaser = *(new PlayerLaser);
+			/*GameObject& newLaser = *(new PlayerLaser);
 			newLaser.pos = pos;
-			world.SpawnLaser(&newLaser);
+			world.SpawnLaser(&newLaser);*/
 		}
 	}
 };
@@ -236,23 +240,28 @@ int main()
 	Renderer consoleRenderer(size);
 	PlayField world(size);
 
+	// Add Input
+	RndInput* Input = new RndInput();
+	world.controllerInput = Input;
+	
 	intRand xCoord(0, (int)size.x- 1);
 	intRand yCoord(0, 10);
 
 	// Populate aliens
 	for (int k = 0; k < 20; k++)
 	{
-		Alien& a = *(new Alien);
-		a.pos.x = (float)xCoord(rGen);
-		a.pos.x = (float)yCoord(rGen);
-		world.AddObject(&a);
+		Alien* a = new Alien();
+		a->pos.x = (float)xCoord(rGen);
+		a->pos.x = (float)yCoord(rGen);
+		world.AddObject(a);
 	}
 
 	// Add player
-	PlayerShip* p = new PlayerShip;
+	/*PlayerShip* p = new PlayerShip;
 	p->pos = Vector2D(40, 27);
-	world.AddObject(p);
+	world.AddObject(p);*/
 
+	
 	for (int i = 0; i < 100; i++)
 	{
 		world.Update();
@@ -263,7 +272,7 @@ int main()
 			RenderItem a = RenderItem(Vector2D(it->pos), it->sprite);
 			rl.push_back(a);
 		}
-
+		
 		consoleRenderer.Update(rl);
 
 		// Sleep a bit so updates don't run too fast
