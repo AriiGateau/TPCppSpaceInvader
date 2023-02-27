@@ -139,18 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Alien.h" />
     <ClInclude Include="AlienLaser.h" />
     <ClInclude Include="ConsoleRenderer.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Input.h" />
+    <ClInclude Include="PlayerLaser.h" />
+    <ClInclude Include="PlayerShip.h" />
     <ClInclude Include="PlayField.h" />
     <ClInclude Include="RndInput.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Alien.cpp" />
     <ClCompile Include="AlienLaser.cpp" />
     <ClCompile Include="ConsoleRenderer.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="PlayerLaser.cpp" />
+    <ClCompile Include="PlayerShip.cpp" />
     <ClCompile Include="PlayField.cpp" />
     <ClCompile Include="RndInput.cpp" />
   </ItemGroup>
