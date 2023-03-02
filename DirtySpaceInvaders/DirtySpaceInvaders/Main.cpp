@@ -26,7 +26,7 @@ int main()
 	world.controllerInput = Input;
 	
 	intRand xCoord(0, (int)size.x- 1);
-	intRand yCoord(0, 10);
+	intRand yCoord(0, (int)size.y - 1);
 
 	// Populate aliens
 	for (int k = 0; k < 20; k++)

@@ -16,6 +16,7 @@ void PlayerShip::Update(PlayField& world)
 {
     if(!world.controllerInput)
         return;
+
     if (world.controllerInput->Left())
         pos.x -= 1;
     else if (world.controllerInput->Right())

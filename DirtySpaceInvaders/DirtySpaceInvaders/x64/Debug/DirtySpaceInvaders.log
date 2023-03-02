@@ -1,1 +1,149 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(442,5): error MSB8020: Les outils de génération pour Visual Studio 2019 (ensemble d'outils de plateforme = 'v142') sont introuvables. Pour générer à l'aide des outils de génération v142, installez les outils de génération Visual Studio 2019. Vous avez également la possibilité de mettre à niveau les outils Visual Studio actuels en sélectionnant le menu Projet ou en cliquant avec le bouton droit sur la solution, puis en sélectionnant "Recibler la solution".
+﻿  Alien.cpp
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(4,1): error C2011: 'GameObject' : redéfinition du type 'class'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.h(5,1): error C2504: 'GameObject' : classe de base non définie
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(10,1): error C2027: utilisation du type non défini 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(11,5): error C2065: 'm_objType' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(11,38): error C2065: 'm_objType' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(11,63): error C2065: 'sprite' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(15,1): error C2027: utilisation du type non défini 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(16,21): error C2541: 'delete' : impossible de détruire des objets qui ne sont pas des pointeurs
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(19,13): error C2227: la partie gauche de '->DecreaseHealth' doit pointer vers un type class/struct/union/générique
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(24,13): error C2227: la partie gauche de '->Update' doit pointer vers un type class/struct/union/générique
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(24,29): error C2761: 'void Alien::Update(PlayField &)' : la redéclaration du membre n'est pas autorisée
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(25,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(26,8): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(26,8): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(26,9): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(26,11): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(26,9): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'x'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(28,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(29,5): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(29,5): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(35,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(36,5): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(36,5): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(45,23): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(45,23): error C2377: 'floatRand' : redéfinition ; un typedef ne peut pas être surchargé avec un autre symbole
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(7,47): message : voir la déclaration de 'floatRand'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(45,15): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'fireRate'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(46,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(47,5): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(47,5): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(53,1): error C2059: erreur de syntaxe : '}'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.cpp(53,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+  AlienLaser.cpp
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(4,1): error C2011: 'GameObject' : redéfinition du type 'class'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(5,1): error C2027: utilisation du type non défini 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(6,5): error C2065: 'm_objType' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(6,38): error C2065: 'm_objType' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(6,64): error C2065: 'sprite' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(10,1): error C2027: utilisation du type non défini 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(11,23): error C2541: 'delete' : impossible de détruire des objets qui ne sont pas des pointeurs
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(14,18): error C2227: la partie gauche de '->Update' doit pointer vers un type class/struct/union/générique
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(14,34): error C2761: 'void AlienLaser::Update(PlayField &)' : la redéclaration du membre n'est pas autorisée
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(15,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(17,8): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(17,8): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(17,9): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(17,11): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(17,9): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'y'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(18,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(19,5): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(19,5): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(23,15): error C2143: erreur de syntaxe : absence de ';' avant '*'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(23,15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(23,26): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(24,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(25,5): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(25,5): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(30,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(31,5): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(31,5): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(35,1): error C2059: erreur de syntaxe : '}'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\AlienLaser.cpp(35,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+  ConsoleRenderer.cpp
+  Main.cpp
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Input.h(2,1): error C2011: 'Input' : redéfinition du type 'class'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Input.h(1,7): message : voir la déclaration de 'Input'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(4,1): error C2011: 'GameObject' : redéfinition du type 'class'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.h(5,1): error C2504: 'GameObject' : classe de base non définie
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.h(5,1): error C2504: 'GameObject' : classe de base non définie
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(35,6): error C2039: 'pos' n'est pas membre de 'Alien'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.h(4,7): message : voir la déclaration de 'Alien'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(36,6): error C2039: 'pos' n'est pas membre de 'Alien'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Alien.h(4,7): message : voir la déclaration de 'Alien'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(37,8): error C2664: 'void PlayField::AddObject(GameObject *)' : impossible de convertir l'argument 1 de 'Alien *' en 'GameObject *'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(37,19): message : Les types pointés ne sont pas liés ; la conversion nécessite un reinterpret_cast, un cast de style C ou un cast de style fonction entre parenthèses.
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayField.h(25,10): message : voir la déclaration de 'PlayField::AddObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(37,8): message : lors de la tentative de mise en correspondance de la liste des arguments '(Alien *)'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(42,5): error C2039: 'pos' n'est pas membre de 'PlayerShip'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.h(4,7): message : voir la déclaration de 'PlayerShip'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(43,7): error C2664: 'void PlayField::AddObject(GameObject *)' : impossible de convertir l'argument 1 de 'PlayerShip *' en 'GameObject *'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(43,18): message : Les types pointés ne sont pas liés ; la conversion nécessite un reinterpret_cast, un cast de style C ou un cast de style fonction entre parenthèses.
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayField.h(25,10): message : voir la déclaration de 'PlayField::AddObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(43,7): message : lors de la tentative de mise en correspondance de la liste des arguments '(PlayerShip *)'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(53,41): error C2027: utilisation du type non défini 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(53,51): error C2027: utilisation du type non défini 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(53,29): error C2440: '<function-style-cast>' : impossible de convertir de 'Vector2D' en 'RenderItem'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(53,29): message : Aucun constructeur n'a pu prendre le type de source, ou la résolution de la surcharge du constructeur était ambiguë
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\Main.cpp(53,17): error C2512: 'RenderItem' : aucun constructeur par défaut approprié disponible
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\ConsoleRenderer.h(7,8): message : voir la déclaration de 'RenderItem'
+  PlayerLaser.cpp
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(4,1): error C2011: 'GameObject' : redéfinition du type 'class'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerLaser.cpp(7,5): error C2065: 'pos' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerLaser.cpp(8,9): error C2065: 'pos' : identificateur non déclaré
+  PlayerShip.cpp
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(4,1): error C2011: 'GameObject' : redéfinition du type 'class'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerLaser.h(5,1): error C2504: 'GameObject' : classe de base non définie
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerLaser.h(7,21): error C2065: 'm_objType' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerLaser.h(7,54): error C2065: 'm_objType' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerLaser.h(7,81): error C2065: 'sprite' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerLaser.h(8,31): error C2065: 'm_objType' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerLaser.h(8,20): error C2541: 'delete' : impossible de détruire des objets qui ne sont pas des pointeurs
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(6,1): error C2027: utilisation du type non défini 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(7,5): error C2065: 'm_objType' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(7,38): error C2065: 'm_objType' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(7,64): error C2065: 'sprite' : identificateur non déclaré
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(11,1): error C2027: utilisation du type non défini 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\GameObject.h(3,7): message : voir la déclaration de 'GameObject'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(12,21): error C2541: 'delete' : impossible de détruire des objets qui ne sont pas des pointeurs
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(15,18): error C2227: la partie gauche de '->Update' doit pointer vers un type class/struct/union/générique
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(15,34): error C2761: 'void PlayerShip::Update(PlayField &)' : la redéclaration du membre n'est pas autorisée
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(16,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(17,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(20,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(22,5): error C2059: erreur de syntaxe : 'else'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(25,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(26,5): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(26,5): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(32,1): error C2059: erreur de syntaxe : '}'
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayerShip.cpp(32,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+  PlayField.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(5119,21): error C2446: '==' : pas de conversion de 'bool (__cdecl *)(GameObject *)' en 'GameObject *'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(5119,24): message : Aucun contexte dans lequel cette conversion est possible
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(5128,86): message : voir la référence à l'instanciation de la fonction modèle '_InIt std::_Find_unchecked<GameObject**,_Ty>(_InIt,const _InIt,const _Ty &)' en cours de compilation
+          with
+          [
+              _InIt=GameObject **,
+              _Ty=PlayField::GetPlayerObject::<lambda_1>
+          ]
+C:\Users\ariit\OneDrive\Documents\GitHub\TPCppSpaceInvader\DirtySpaceInvaders\DirtySpaceInvaders\PlayField.cpp(14,138): message : voir la référence à l'instanciation de la fonction modèle '_InIt std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,PlayField::GetPlayerObject::<lambda_1>>(_InIt,const _InIt,const PlayField::GetPlayerObject::<lambda_1> &)' en cours de compilation
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<GameObject *>>>,
+              _Ty=GameObject *
+          ]
+  RndInput.cpp
+  Génération de code en cours...

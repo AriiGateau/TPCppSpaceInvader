@@ -7,6 +7,6 @@ public:
     Vector2D pos;
     unsigned char sprite;
 
-    virtual void Update(class PlayField& world) {};
-    bool DecreaseHealth() { return true; };
+    virtual void Update(class PlayField& world);
+    bool DecreaseHealth();
 };
